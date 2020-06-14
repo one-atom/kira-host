@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "ih-dev": "ts-node src/internal_host/main.ts",
+    "ih-build": "tsc"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "prettier": "^2.0.5"
+  }
+}
